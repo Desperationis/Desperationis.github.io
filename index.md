@@ -4,8 +4,8 @@ Hello! I am a young self-taught programmer who has been programming for 4 years.
 
 ## Projects
 
-- Snake
-- Asteroids
+- [Snake](https://github.com/Desperationis/Snake)
+- [Asteroids](https://github.com/Desperationis/Snake)
 
 ## Plans
 
@@ -13,5 +13,5 @@ Hello! I am a young self-taught programmer who has been programming for 4 years.
 - Learning SQL Databases and Servers
 - Setting up a chat system
 
-[next page](about.html)
+Take a look at my [github](https://github.com/Desperationis/)
 
