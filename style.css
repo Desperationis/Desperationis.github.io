@@ -21,7 +21,7 @@ body {
 }
 
 .header-banner .header-image{
-    background-image: url("./images/emiliatan.png");
+    background-image: url("./images/emiliatan.PNG");
     background-size: cover;
     position: relative;
     width: 100px;
