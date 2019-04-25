@@ -92,10 +92,10 @@ body {
     padding: 15px 25px;
     
     height:auto;
-    width: 26%;
+    width: 42%;
     top: 6px;
     text-align: center;
-    margin-left: 4px;
+    margin-left: 7px;
     left: 1px;
     color: white;
 }
@@ -118,10 +118,10 @@ a span {
     }
     .tab {
         text-align: center;
-        left: 0px;
+        left: 6px;
         top: 10px;
-        margin-left: 18px;
-        width: 20%;
+        margin-left: 4px;
+        width: 39%;
     }
 }
 
@@ -129,17 +129,17 @@ a span {
     .header-banner { height: 250px; }
     .tabs {
         left: 2%;
-        width: 600px;
+        width: 500px;
         top: 60px;
         font-size: 175%;
 
     }
     .tab {
         text-align: center;
-        left: 0px;
-        top: 11px;
-        margin-left: 18px;
-        width: 20%;
+        left: 10px;
+        top: 10px;
+        margin-left: 7px;
+        width: 35%;
     }
 }
 
@@ -154,15 +154,16 @@ a span {
     }
     .tab {
         text-align: center;
-        left: 0px;
+        width: 40%;
+        left: 2px;
         top: 4px;
         margin-left: 6px;
-        width: 18%;
+        width: 34%;
     }
     .content {
         margin: 0px auto;
         font-size: 100%;
-        width:87%;
+        width:85%;
         min-width: 400px;
     }
 }
