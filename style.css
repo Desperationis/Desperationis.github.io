@@ -3,6 +3,7 @@ body {
     background-size: 100px 100px;
     right:1px;
     color:white;
+    font-size: 16px;
     /*loops image*/
 }
 
@@ -33,15 +34,19 @@ body {
 .header-image .header {
     position: relative;
     left: 150%;
-    font-size: 30px;
+    font-size: 187.5%;
     font-family: Helvetica;
     font-weight: bold;
     width: 300px;
+    color: white;
+}
+.header-banner a {
+    text-decoration: none;
 }
 
 .header .sub-header{
     position: relative;
-    font-size: 15px;
+    font-size: 50%;
     font-family: Helvetica;
     font-weight: bold;
     font-style: italic;
@@ -54,11 +59,11 @@ body {
 
 .content {
     font-family: sans-serif;
-    font-size: 16px;
-    
+    font-size: 100%;
     position: relative;
+    display: block;
     width: 80%;
-    height: 1000px;
+    height: 100%;
     background-color: gray;
     margin: 0px auto;
     padding : 3px 20px;
@@ -71,7 +76,7 @@ body {
 .tabs {
     position: relative;
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 281.25%;
     height: 80px;
     width: 845px;
     display: inline-block;
@@ -108,7 +113,7 @@ a span {
         bottom: 60px;
         left: 500px;
         width: 600px;
-        font-size: 28px;
+        font-size: 175%;
     }
     .tab {
         text-align: center;
@@ -125,7 +130,7 @@ a span {
         left: 2%;
         width: 600px;
         top: 60px;
-        font-size: 28px;
+        font-size: 175%;
 
     }
     .tab {
@@ -144,7 +149,7 @@ a span {
         left: 5%;
         width: 400px;
         height: 57px;
-        font-size: 16px;
+        font-size: 100%;
     }
     .tab {
         text-align: center;
@@ -154,8 +159,8 @@ a span {
         width: 18%;
     }
     .content {
-        margin-left: 30px;
-        font-size: 4.4vw;
+        margin: 0px auto;
+        font-size: 100%;
     }
 }
 
