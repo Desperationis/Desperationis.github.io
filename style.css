@@ -92,11 +92,11 @@ body {
     padding: 15px 25px;
     
     height:auto;
-    width: 42%;
+    width: 26%;
     top: 6px;
     text-align: center;
-    margin-left: 7px;
-    left: 1px;
+    margin-left: 3px;
+    left: 2px;
     color: #3a3a3a;
     background-color: lightgray;
 }
@@ -120,10 +120,10 @@ a span {
     }
     .tab {
         text-align: center;
-        left: 6px;
+        left: 2px;
         top: 10px;
         margin-left: 4px;
-        width: 39%;
+        width: 23%;
     }
 }
 
@@ -131,17 +131,17 @@ a span {
     .header-banner { height: 250px; }
     .tabs {
         left: 2%;
-        width: 500px;
+        width: 530px;
         top: 60px;
         font-size: 175%;
 
     }
     .tab {
         text-align: center;
-        left: 10px;
+        left: 3px;
         top: 10px;
-        margin-left: 7px;
-        width: 35%;
+        margin-left: 2px;
+        width: 22%;
     }
 }
 
@@ -157,10 +157,10 @@ a span {
     .tab {
         text-align: center;
         width: 40%;
-        left: 2px;
+        left: 0px;
         top: 4px;
         margin-left: 6px;
-        width: 34%;
+        width: 18%;
     }
     .content {
         margin: 0px auto;
@@ -171,7 +171,7 @@ a span {
 }
 
 
-/*projetcs.html*/
+/*projects.html*/
 
 .content h3 {
     position: relative;
@@ -204,9 +204,46 @@ a span {
     background-image: url("images/AsteroidsCapture.PNG");
 }
 
-.dummy{
+.dummy {
     position:relative;
     display: block;
     margin: 0px auto;
     text-align:center;
+}
+
+@media screen and (max-width: 765px) {
+    .project-image{
+        width: 70%;
+        padding-bottom: 70%;
+    }
+}
+
+
+/*contact.html*/
+
+.instagram-glyph {
+    position:relative;
+    background-image: url("./images/IG_Glyph_Fill_White.png");
+    background-size: cover;
+    background-color: #3a3a3a;
+    margin: auto 0px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #3a3a3a;
+    border-radius: 5px;
+}
+
+.instagram-glyph:hover {
+    background-image: url("./images/IG_Glyph_Fill_DarkGray.png");
+    background-color: lightgray;
+    border: 2px solid lightgray;
+}
+
+.instagram-glyph h2{
+    text-align:center;
+    margin: auto 0px;
+    margin-left:50px;
+    text-align: center;
+    line-height: 40px;
+
 }
