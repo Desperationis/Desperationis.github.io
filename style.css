@@ -178,14 +178,14 @@ a span {
     display: inline-block;
 
     padding: 25px 28%;
-    margin: 15px auto;
 
 
     background-color: #3a3a3a;
     text-align: center;
     font-size: 250%;
     border: 3px solid #3a3a3a;
-    border-radius: 3px;
+    border-radius: 6px;
+    min-width: 190px;
 }
 
 .project-image {
@@ -203,4 +203,11 @@ a span {
 
 .asteroid {
     background-image: url("images/AsteroidsCapture.PNG");
+}
+
+.dummy{
+    position:relative;
+    display: block;
+    margin: 0px auto;
+    text-align:center;
 }
