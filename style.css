@@ -67,7 +67,7 @@ body {
     background-color: gray;
     margin: 0px auto;
     padding : 3px 20px;
-    border: 2px solid gray;
+    border: 12px solid #3a3a3a;
     border-radius: 3px;
     bottom: 20px;
     min-width: 450px;
@@ -80,7 +80,7 @@ body {
     height: 80px;
     width: 845px;
     display: inline-block;
-    background-color: darkgray;
+    background-color: #2e2e2e;
     
     left: 500px;
     bottom: 60px;
@@ -97,11 +97,13 @@ body {
     text-align: center;
     margin-left: 7px;
     left: 1px;
-    color: white;
+    color: #3a3a3a;
+    background-color: lightgray;
 }
 
 .tab:hover{
-    background-color: lightgray;
+    color: lightgray;
+    background-color: #3a3a3a;
 }
 
 a span {
@@ -168,3 +170,37 @@ a span {
     }
 }
 
+
+/*projetcs.html*/
+
+.content h3 {
+    position: relative;
+    display: inline-block;
+
+    padding: 25px 28%;
+    margin: 15px auto;
+
+
+    background-color: #3a3a3a;
+    text-align: center;
+    font-size: 250%;
+    border: 3px solid #3a3a3a;
+    border-radius: 3px;
+}
+
+.project-image {
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    height: 0;
+    padding-bottom: 50%;
+    margin: 0px auto;
+}
+
+.snake {
+    background-image: url("./images/SnakeCapture.PNG");
+}
+
+.asteroid {
+    background-image: url("./images/AsteroidsCapture.PNG");
+}

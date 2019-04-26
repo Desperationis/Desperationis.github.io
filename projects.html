@@ -5,6 +5,16 @@
         <title>Desperationis' Web | Home</title>
         <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
         <link rel="stylesheet" type="text/css" href="style.css">
+
+        <style>
+            .projects{
+                color: lightgray;
+                background-color: #3a3a3a;
+            }
+            .content p {
+                text-align:center;
+            }
+        </style>
     </head>
 
     <body>
@@ -21,20 +31,29 @@
             </a>
 
             <nav class = "tabs" role = "navigation">
-                <a href="projects.html"><span class = "tab">Projects</span></a>
+                <a href="projects.html"><span class = "tab projects">Projects</span></a>
                 <a href="contact.html"><span class = "tab">Contact</span></a>
             </nav>
         </div>
 
-
-        <!--<p>
-            <a href = "https://github.com/Desperationis" target = "_blank"> Github</a>
-        </p> -->
         
         <div class = "content">
             <p> 
                 <em><h2>Welcome to the project page!</em> (I guess.)</h2>
             </p>
+
+            <h3>Snake</h3>
+            <a href = "https://github.com/Desperationis/Snake" target = "_blank"><div class = "project-image snake"></div></a>
+            <p>A simple game of Snake. (Aug 1, 2018)</p>
+            <br>
+
+            <h3>Asteroids</h3>
+            <a href = "https://github.com/Desperationis/Asteroids" target = "_blank"><div class = "project-image asteroid"></div></a>
+            <p>A simple game of Asteroids. The game in total took around 3 school weeks to finish,
+            but it taught me the importance of using a Entity Component System (ECS) to better structure my code. 
+            The game runs extremely well on any Windows computer, and as a little twist I added some powerups. 
+            (Version 4; April 21, 2019)</p>
+
         </div>
 
 
