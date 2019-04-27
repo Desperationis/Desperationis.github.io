@@ -22,8 +22,9 @@ body {
 }
 
 .header-banner .header-image{
-    background-image: url("./images/emiliatan.PNG");
+    background-image: url("./images/Rakki.png");
     background-size: cover;
+    background-color: #3a3a3a;
     position: relative;
     width: 100px;
     height: 100px;
@@ -230,7 +231,7 @@ a span {
     width: 40px;
     height: 40px;
     border: 2px solid #3a3a3a;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 
 .instagram-glyph:hover {
