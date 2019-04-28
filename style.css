@@ -240,11 +240,30 @@ a span {
     border: 2px solid lightgray;
 }
 
-.instagram-glyph h2{
+.github-glyph {
+    position:relative;
+    background-image: url("./images/Github-glyph/Github-Mark-Light-32px.png");
+    background-size: cover;
+    background-color: #3a3a3a;
+    margin: auto 0px;
+    width: 32px;
+    height: 32px;
+    border: 6px solid #3a3a3a;
+    border-radius: 30px;
+}
+
+.github-glyph:hover {
+    background-image: url("./images/Github-glyph/Github-Mark-32px.png");
+    background-color: lightgray;
+    border: 6px solid lightgray;
+}
+
+
+
+.instagram-glyph h2, .github-glyph h2{
     text-align:center;
     margin: auto 0px;
     margin-left:50px;
     text-align: center;
     line-height: 40px;
-
 }
