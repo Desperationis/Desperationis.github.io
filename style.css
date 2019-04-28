@@ -205,6 +205,11 @@ a span {
     background-image: url("images/AsteroidsCapture.PNG");
 }
 
+.demos {
+    background-image: url("images/Demos.png");
+}
+
+
 .dummy {
     position:relative;
     display: block;
