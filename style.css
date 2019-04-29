@@ -7,8 +7,6 @@ body {
     /*loops image*/
 }
 
-
-
 .header-banner{
     width:85%;
     height:150px;
@@ -186,6 +184,11 @@ a span {
     font-size: 250%;
     border: 3px solid #3a3a3a;
     border-radius: 6px;
+}
+
+.content a{
+    text-decoration-color: white;
+    color: white;
 }
 
 .project-image {
