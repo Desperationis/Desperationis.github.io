@@ -250,7 +250,7 @@ a span {
 
 .github-glyph {
     position:relative;
-    background-image: url("./images/Github-glyph/Github-Mark-Light-32px.png");
+    background-image: url("./images/GitHub_Mark_Light_32px.png");
     background-size: cover;
     background-color: #3a3a3a;
     margin: auto 0px;
@@ -261,7 +261,7 @@ a span {
 }
 
 .github-glyph:hover {
-    background-image: url("./images/Github-glyph/Github-Mark-32px.png");
+    background-image: url("./images/Github_Mark_32px.png");
     background-color: lightgray;
     border: 6px solid lightgray;
 }
