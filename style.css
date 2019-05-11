@@ -213,7 +213,7 @@ a span {
 }
 
 .quadtree {
-    background-image: url("images/QuadtreeCapture");
+    background-image: url("images/QuadtreeCapture.PNG");
 }
 
 
@@ -265,7 +265,7 @@ a span {
 }
 
 .github-glyph:hover {
-    background-image: url("images/Github_Mark_32px.png");
+    background-image: url("./images/GitHub_Mark_32px.png");
     background-color: lightgray;
     border: 6px solid lightgray;
 }
