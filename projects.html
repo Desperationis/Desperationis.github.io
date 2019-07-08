@@ -1,76 +1,142 @@
 <!DOCTYPE html>
 
+
+
 <html>
-    <head>
-        <title>Desperationis' Web | Home</title>
-        <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
-        <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="css/menuStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <script src = "http://code.jquery.com/jquery-latest.min.js"></script>    
+    <script src = "tool.js"></script>
+</head>
 
-        <style>
-            .projects{
-                color: lightgray;
-                background-color: #3a3a3a;
-            }
-            .content p {
-                text-align:center;
-            }
-        </style>
-    </head>
 
-    <body>
+<body>
+    <header>
         <div class = "header-banner">
-            <a href = "index.html">
-                <div class = "header-image">
-                    <div class = "header">
-                        <p>Diego Contreras</p>
-                        <div class = "sub-header">
-                                <p>Young Programmer</p>
-                            </div>
+            <nav>
+                <ul>
+                    <a href= "index.html"><li><div id = "profilePhoto"></div></li></a>
+                    <div class = "nameContainer">
+                        <p id = "name">Diego Contreras</p>
+                        <!--<p id = "career">Uncertain Programmer</p>-->
                     </div>
-                </div>
-            </a>
-
-            <nav class = "tabs" role = "navigation">
-                <a href="index.html"><span class = "tab">Home</span></a>
-                <a href="projects.html"><span class = "tab projects">Projects</span></a>
-                <a href="contact.html"><span class = "tab">Contact</span></a>
+                    <a href= "projects.html"><li class = "button" id = "projectsButton">Projects</li></a>
+                    <a href= "index.html"><li class = "button" id = "homeButton">Home</li></a>
+                </ul>
             </nav>
         </div>
+    </header>
 
-        
-        <div class = "content">
-            <p> 
-                <em><h2>Welcome to the project page!</em> (I guess.)</h2>
-            </p>
-
-            <div class = "dummy"><h3>Quadtree Demo</h3></div>
-            <a href = "https://github.com/Desperationis/Quadtree" target = "_blank"><div class = "project-image quadtree"></div></a>
-            <p>A simple demo of the use of a quadtree. I made this for future implementation, possibly. (May 5, 2019)</p>
-
-            <div class = "dummy"><h3>Asteroids</h3></div>
-            <a href = "https://github.com/Desperationis/Asteroids" target = "_blank"><div class = "project-image asteroid"></div></a>
-            <p>A simple game of Asteroids. The game in total took around 3 school weeks to finish,
-            but it taught me the importance of using a Entity Component System (ECS) to better structure my code. 
-            The game runs extremely well on any Windows computer due to it's hopscotch hash map, and as a little twist I added some powerups. 
-            (Version 4; April 21, 2019)</p>
-            
-            <div class = "dummy"><h3>2018 Demos</h3></div>
-            <a href = "https://github.com/Desperationis/2018-Demos-Exe" target = "_blank"><div class = "project-image demos"></div></a>
-            <p>A bunch of demos showing game collision detection, spritesheets, camera movement, level loading, and controller 
-                compatibility. I didn't list them all here, but you should check them out. Click the image for runnable .exe's or <a a href = "https://github.com/Desperationis/2018-Demos-Source-Code" target = "_blank">click here</a> 
-                for the source code.(May - December 2018)
-            </p>
-
-            <div class = "dummy"><h3>Snake</h3></div>
-            <a href = "https://github.com/Desperationis/Snake" target = "_blank"><div class = "project-image snake"></div></a>
-            <p>A simple game of Snake. One of my first games I've ever created (especially since it's in C++), and I'm proud of it. (Aug 1, 2018)</p>
-            <br>
-
-
+    <div class = "aboutProjects">
+        <div id = "projectBackgroundPhoto"></div>
+        <div class = "grayOverlay">
+            <div class = "introductoryText">
+                <h1>Notable Projects | Diego Contreras</h1>
+            </div>
         </div>
 
 
+        <!--WebScrapper-->
+        <div class = "brick green">
+            <a href = "https://github.com/Desperationis/WeatherForecast" target = "_blank"><img id = "fullProjectPhoto" class = "rightShadow portrait" src = "img/FillerProjectImg.png"></a>
+        </div>
 
-    </body>
+        <div class = "brick black">
+            <div class = "profileInfo vertical-align">
+                    <a href = "https://github.com/Desperationis/WeatherForecast" target = "_blank"><h3>WeatherForecast (WIP)</h3></a>
+                    <hr>
+                    <p> A offline weather forecast script I built in case I had to go on offline holidays! It strips down weather information from city codes and updates a file with new 
+                        information. If you don't have internet to get the most accurate weather reading, it displays the close-enough weather based off the file. </p>
+                    <ul class = "programmingLanguages">
+                        <li>C++</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+        </div>
+        <!--WebScrapper-->
+
+
+        <!--Quadtree-->
+        <div class = "brick black" id = "RightAboutMe">
+            <div class = "profileInfo vertical-align">
+                <a href = "https://github.com/Desperationis/Quadtree" target = "_blank"><h3>Quadtree Example</h3></a>
+                <hr>
+                <p>A visual representation of how a Quadtree works. (You can change how many recursions it can do!)</p>
+                <ul class = "programmingLanguages">
+                    <li>C++</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class = "brick orange" id = "RightAboutMe">
+            <a href = "https://github.com/Desperationis/Quadtree" target = "_blank"><img id = "fullProjectPhoto" class = "rightShadow squarePhoto" src = "img/project/QuadtreeCapture.PNG"></a>
+        </div>
+        <!--Quadtree-->
+
+
+        <!--Asteroids-->
+        <div class = "brick yellow">
+            <a href = "https://github.com/Desperationis/Asteroids" target = "_blank"><img id = "fullProjectPhoto" class = "leftShadow landscape" src = "img/project/AsteroidsCapture.PNG"></a>
+        </div>
+
+        <div class = "brick black">
+            <div class = "profileInfo vertical-align">
+                <a href = "https://github.com/Desperationis/Asteroids" target = "_blank"><h3>Asteroids</h3></a>
+                <hr>
+                <p>
+                    Asteroids is the second game I made, featuring levels, a title screen, PS4 controller support, and spritesheet graphics. This Meteors clone taught me a lot about
+                    the game development process, how game engines use ECS, and trigonometry that my school haven't taught.
+                </p>
+
+                <ul class = "programmingLanguages">
+                    <li>C++</li>
+                </ul>
+            </div>
+        </div>
+        <!--Asteroids-->
+
+
+        <!--Snek-->
+        <div class = "brick black" id = "RightAboutMe">
+                <div class = "profileInfo vertical-align">
+                    <a href = "https://github.com/Desperationis/Snake" target = "_blank"><h3>Snek</h3></a>
+                    <hr>
+                    <p>
+                        The first game I've ever made! This Snake clone written in SDL2 and C++ began my graphics programming journey. 
+                    </p>
+                    <ul class = "programmingLanguages">
+                        <li>C++</li>
+                    </ul>
+                </div>
+        </div>
+
+        <div class = "brick crimson" id = "RightAboutMe">
+                <a href = "https://github.com/Desperationis/Snake" target = "_blank"><img id = "fullProjectPhoto" class = "rightShadow squarePhoto" src = "img/project/SnakeCapture.PNG"></a>
+        </div>
+        <!--Snek-->
+
+
+         <!--Contact-->
+        <div class = "brick" id = "contacts">
+            <ul class = "contactsList">
+                <li>
+                    <a href="https://github.com/Desperationis" target = "_blank"><img id = "Github" src = "img/contact/Github/Github-Mark-Light-120px-plus.png"/></a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/_desperationis_/" target = "_blank"><img id = "Instagram" src = "img/contact/Instagram/IG_Glyph_Fill_White.png"/></a>
+                </li>
+
+                <li>
+            </ul>
+        </div>
+    </div>
+    
+
+</body>
 </html>
-

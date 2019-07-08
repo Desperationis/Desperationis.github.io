@@ -14,7 +14,7 @@
                 "command": "C:/Program Files/Mozilla Firefox/firefox.exe"
             },
             "args": [
-                "C:\\Users\\smart\\Desktop\\Desperationis.github.io\\index.html"
+                "C:\\Users\\smart\\Desktop\\js test\\index.html"
             ],
             "problemMatcher": []
         }

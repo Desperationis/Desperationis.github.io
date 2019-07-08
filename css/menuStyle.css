@@ -1,0 +1,100 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration:none;
+}
+
+
+header {
+    top:0px;
+    left:0px;
+    background-color: #111111;
+    height:auto;
+    position: sticky;
+    width: 100%;
+    z-index: 1001;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#profilePhoto {
+    position:relative;
+    display: inline-block;
+    background-image: url("../img/Profile.jpg");
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-top: 7px;
+}
+
+.header-banner {
+    position:relative;
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    text-align:center;
+    z-index: 1001;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav li {
+    color: white;
+    float:left;
+    margin: 0;
+    padding: 0.1em;
+}
+
+nav .button {
+    font-family: Arial;
+    font-size: 20px;
+
+    color:white;
+    float: right;
+    line-height: 100px;
+    padding: 0px 100px;
+}
+
+nav .button:hover {
+    background-color: #333333;
+}
+
+.nameContainer {
+    margin-left: 25px;
+    width: 250px;
+    height: 100px;
+    float: left;
+    color: white;
+    text-align: left;
+    line-height: 5px;
+}
+
+
+#name{
+    font-family: "Roboto", Arial;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+#career {
+    font-family: "Roboto", Arial;
+    font-size: 16px;
+    font-weight: 100;
+    color: #858585;
+}

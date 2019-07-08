@@ -1,71 +1,101 @@
 <!DOCTYPE html>
 
+
+
 <html>
-    <head>
-        <title>Desperationis' Web | Home</title>
-        <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
-        <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="css/menuStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <script src = "http://code.jquery.com/jquery-latest.min.js"></script>    
+    <script src = "tool.js"></script>
+</head>
 
-        <style>
-                .home{
-                    color: lightgray;
-                    background-color: #3a3a3a;
-                }
-                .content p {
-                    text-align:center;
-                }
-            </style>
-    </head>
 
-    <body>
+<body>
+    <header>
         <div class = "header-banner">
-            <a href = "index.html">
-                <div class = "header-image">
-                    <div class = "header">
-                        <p>Diego Contreras</p>
-                        <div class = "sub-header">
-                                <p>Young Programmer</p>
-                            </div>
+            <nav>
+                <ul>
+                    <a href= "index.html"><li><div id = "profilePhoto"></div></li></a>
+                    <div class = "nameContainer">
+                        <p id = "name">Diego Contreras</p>
                     </div>
-                </div>
-            </a>
-
-            <nav class = "tabs" role = "navigation">
-                <a href="index.html"><span class = "tab home">Home</span></a>
-                <a href="projects.html"><span class = "tab">Projects</span></a>
-                <a href="contact.html"><span class = "tab">Contact</span></a>
+                    <a href= "projects.html"><li class = "button" id = "projectsButton">Projects</li></a>
+                    <a href= "index.html"><li class = "button" id = "homeButton">Home</li></a>
+                </ul>
             </nav>
         </div>
-        
-        <div class = "content">
-            <p> 
-                <em><h2>Welcome to my website!</em></h2>
-                <br>
-                Hello! I am a young programmer who (you guessed it) programs games in his free time. I made this website so I could start
-                listing any projects I finish from here to the end of high school. I'm not sure who'll see this, but if you're a teacher,
-                <em>do not ask me to fix anything other than a computer</em>. While I do enjoy fixing things, I have no experience fixing 
-                microwaves, chairs, or failing marriages. Thank you. As for everyone else, I am a middle schooler. I have learned C++, Python,
-                HTML, CSS, and a bit of Javascript and have been working hard to learn different databases, data types, and some late
-                high-school math. I'm really into low-level programming and game concepts, and have been honing my skills since I was 9. <br>
-                <br>
-                <br>
-                On the brighter side of things, I have created a list of things I want to accomplish before high school:
-            </p>
+    </header>
 
-            <ul>
-                <li>Make a chatroom. I want to do this so I can understand clients and servers.</li>
-                <li>Compose a good chiptune song for a game.</li>
-                <li>Fully understand the Entity Component System and make a platformer with it.</li>
-                <li>Make a 3D shape in OpenGL and rotate it. I doubt I'll have enough brainpower to understand matrixes, or even artificial perspective, but I hope to do it soon. </li>
-                <li>Finally, I want to learn OpenGL, XNA, or the .NET framework and enhance 2D visuals. </li>
-            </ul>
-
-            <p>That's all for this page. Check out my projects for some cool stuff.</p>
-            <br>
+    <div class = "AboutMe">
+        <div id = "homeBackgroundPhoto"></div>
+        <div class = "grayOverlay">
+            <div class = "introductoryText">
+                <h1>Hi There | Diego Contreras</h1>
+            </div>
         </div>
 
 
+        <!--About Me-->
+        <div class = "brick black">
+            <div class = "profileInfo vertical-align">
+                <h3>About Me</h3>
+                <hr>
+                <p>
+                    Heyo! I'm a graphical / web programmer in Los Angeles, California. Getting excellent grades in school doesn't transition into 
+                    getting enough sleep each night, so please mind some gaps here and there. I'm really bad at taking photos, so please do mind 
+                    the Splash Mountain photo.
+                </p>
+            </div>
+        </div>
+        <div class = "brick cyan">
+            <img id = "fullProfilePhoto" class = "rightShadow portrait" src = "img/IMG_20190603_155750_213.jpg">
+        </div>
+        <!--About Me-->
 
-    </body>
+
+        <!--Skills-->
+        <div class = "brick crimson">
+                <img id = "fullProfilePhoto" class = "leftShadow portrait" src = "img/placeimg_999_480_tech.jpg">
+        </div>
+        <div class = "brick black">
+                <div class = "profileInfo vertical-align">
+                    <h3>Skills</h3>
+                    <hr>
+                    <p>I have read up on game design, graphical programming, and client-side / server-side scripting. Thanks to my family 
+                        and self-interest, I also have extensive knowledge on electronics and mechanisms.
+                    </p>
+                    <ul class = "programmingLanguages">
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+        </div>
+        <!--Skills-->
+
+
+        <!--Contact-->
+        <div class = "brick" id = "contacts">
+            <ul class = "contactsList">
+                <li>
+                    <a href="https://github.com/Desperationis" target = "_blank"><img id = "Github" src = "img/contact/Github/Github-Mark-Light-120px-plus.png"/></a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/_desperationis_/" target = "_blank"><img id = "Instagram" src = "img/contact/Instagram/IG_Glyph_Fill_White.png"/></a>
+                </li>
+
+                <li>
+            </ul>
+        </div>
+    </div>
+    
+
+</body>
 </html>
-
