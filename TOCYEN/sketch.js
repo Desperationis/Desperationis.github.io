@@ -26,9 +26,9 @@ function draw() {
   background(0);
   
   AlignMode(enumPositions.TOP);
-  TextSize(200);
+  TextSize(18);
   AlignedText("TOCYEN", 0, 100);
   
-  TextSize(20);
+  TextSize(3);
   AlignedText("The Only Calculator You'll Ever Need!", 0, 210);
 }
