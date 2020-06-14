@@ -3,7 +3,7 @@ function preload() {
   inconsolata = loadFont('assets/8bitoperator_jve.ttf');
 }
 function setup() {
-  createCanvas(800, 800, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
   textFont(inconsolata);
   textSize(width / 3);
   textAlign(CENTER, CENTER);
@@ -11,7 +11,7 @@ function setup() {
 function draw() {
   background(0);
   let time = millis();
-  text('this ain\'t it chief', (time % 6000) - 3000, 0);
+  text('this ain\'t it chief', -(time % 6000) + 3000, 0);
   
   rotateX(time / 1000);
   rotateZ(time / 1234);
