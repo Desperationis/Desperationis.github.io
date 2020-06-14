@@ -1,0 +1,5 @@
+/*
+  HelperFunctions.js
+  
+  Helper functions!
+*/
