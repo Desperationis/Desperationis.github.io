@@ -1,7 +1,7 @@
 /*
   Aligner.js
   
-  Aligns text, no matter the screen size!
+  Aligns text based on points, no matter the screen size!
 */
 
 let enumPositions = {
@@ -9,7 +9,11 @@ let enumPositions = {
   TOP : 1,
   BOTTOM : 2,
   LEFT : 3,
-  RIGHT : 4
+  RIGHT : 4,
+  TOPLEFT : 5,
+  TOPRIGHT : 6,
+  BOTTOMLEFT : 7,
+  BOTTOMRIGHT : 8,
 };
 
 let currentEnum = enumPositions.CENTER;
@@ -34,6 +38,18 @@ function AlignedText(strText, x, y) {
       break;
     case enumPositions.RIGHT:
       text(strText, x + width / 2, y);
+      break;
+    case enumPositions.TOPLEFT:
+      text(strText, x - width / 2, y - height / 2);
+      break;
+    case enumPositions.TOPRIGHT:
+      text(strText, x + width / 2, y - height / 2);
+      break;
+    case enumPositions.BOTTOMLEFT:
+      text(strText, x - width / 2, y + height / 2);
+      break;
+    case enumPositions.BOTTOMRIGHT:
+      text(strText, x + width / 2, y + height / 2);
       break;
   }
 }
