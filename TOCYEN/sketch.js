@@ -5,7 +5,9 @@
 */
 
 // Declare a variable limited to block scope.
+let fps = 60;
 let font;
+let sceneManager;
 
 function preload() {
   // Load font from resources before setup.
@@ -14,21 +16,36 @@ function preload() {
 
 function setup() {
   // Create and setup window.
-  createCanvas(windowWidth, windowHeight, WEBGL);
+  createCanvas(windowHeight, windowHeight, WEBGL);
   
   // Setup font and text origin.
   textFont(font);
   textAlign(CENTER, CENTER);
+  
+  // Initialize the static constructors
+  Scaler.constructor();
+  Aligner.constructor();
+  
+  // Load scenes.
+  SceneManager.constructor();
+  SceneManager.AddScene(new Menu());
+  SceneManager.AddScene(new Subjects());
 }
 
 function draw() {
   // Change background color (also clears canvas)
   background(0);
   
-  AlignMode(enumPositions.TOP);
-  TextSize(18);
-  AlignedText("TOCYEN", 0, 100);
+  // Draw current scene
+  SceneManager.Render();
   
-  TextSize(3);
-  AlignedText("The Only Calculator You'll Ever Need!", 0, 210);
+  // FPS counter
+  fps = lerp(fps, frameRate(), 0.05);
+  Scaler.TextSize(5);
+  Aligner.AlignMode(enumPositions.BOTTOMRIGHT);
+  Aligner.Text(str(round(fps)), createVector(-50, -50));
 }
+
+
+
+

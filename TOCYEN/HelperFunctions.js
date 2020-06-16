@@ -4,9 +4,17 @@
   Helper functions!
 */
 
-function TextSize(size) {
-  // Set the size of text based on screen
-  // 100px is screen width
+// Returns the closest multiple based off a floor value.
+function FloorMultiple(base, multiple) {
+  return floor(base / multiple) * multiple;
+}
 
-  textSize(floor((size / 100) * width));
+// Checks if a single array element is equal to a variable.
+function AdvancedOR(variable, array) {
+  for(var i = 0; i < array.length; i++) {
+    if(variable == array[i]) {
+      return true;
+    }
+  }
+  return false;
 }
