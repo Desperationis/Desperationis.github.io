@@ -13,6 +13,6 @@ class Mouse {
     var centeredMouse = createVector(mouseX - width / 2, mouseY - height / 2);
     var offset = Aligner.GetOffset();
     
-    return p5.Vector.sub(centeredMouse, offset);
+    return centeredMouse;
   }
 }

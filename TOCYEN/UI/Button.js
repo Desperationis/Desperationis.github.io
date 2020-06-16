@@ -25,19 +25,14 @@ class Button {
   Render() {
     // See if mouse hits hitbox of text
     var mousePosition = Mouse.GetPosition();
-    
-    print(mousePosition);
-    print(this.hitbox);
-    
+
     if(Hitbox.PointInHitbox(mousePosition, this.hitbox)) {
       fill(this.hoverHue);
       
       if(mouseIsPressed) {
-        
         for(var i = 0; i < this.listeners.length; i++) {
           this.listeners[i]();
         }
-        
       }
       
     }
