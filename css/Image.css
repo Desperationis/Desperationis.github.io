@@ -1,0 +1,7 @@
+.brickImage {
+    background-size: cover;
+    border-radius: 1em;
+    margin: 0 auto;
+    width: 55%;
+    height: auto;
+}
