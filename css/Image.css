@@ -5,3 +5,15 @@
     width: 55%;
     height: auto;
 }
+
+#homeBackgroundPhoto {
+    position:relative;
+    background-image: url("../img/MySun.png");
+    background-position: center;
+    display:block;
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
