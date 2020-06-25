@@ -1,0 +1,27 @@
+.leftBrick, .rightBrick {
+  width: 50%;
+  height: 300px;
+  color:white;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leftBrick {
+  float: left;
+}
+
+.rightBrick {
+  float: right;
+}
+
+.brickTitle {
+  font-size: 3em;
+}
+
+.brickLine {
+  color: white;
+  width: 80%;
+}
