@@ -1,12 +1,20 @@
 .leftBrick, .rightBrick {
   width: 50%;
-  height: 300px;
-  color:white;
+  height: 600px;
+  color: white;
 
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  /*
+   * justify-content: space-evenly;
+   *
+   * This was the bane of my existence. This single line of code
+   * makes elements space evenly throughout the brick, and was the
+   * default value of the flex container.
+   * */
 }
 
 .leftBrick {
@@ -23,5 +31,5 @@
 
 .brickLine {
   color: white;
-  width: 80%;
+  width: 20%;
 }
