@@ -5,6 +5,13 @@
     height: 100vh;
 }
 
+#projectBackgroundPhoto {
+    background-image: url("../img/MyMountains.png");
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
 .darkImageCover {
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -16,7 +23,7 @@
 
   font-family: "Source Sans Pro";
   color: white;
-  font-size: 10vh;
+  font-size: 6vh;
 }
 
 .brickImage {
