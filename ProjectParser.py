@@ -120,7 +120,6 @@ template = """
     <nav id="navigation">
       <a href = "index.html">Home</a>
       <a href = "Projects.html">Projects</a>
-      <a href="https://desperationis.github.io/TOCYEN/index.html">TOCYEN</a>
     </nav>
   </div>
 
