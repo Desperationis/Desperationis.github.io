@@ -1,16 +1,57 @@
+> Boids
+Boids.PNG
+https://github.com/Desperationis/Boids
+This is my implementation of Boids! This program was made to test my SFML Game Engine, which was abandoned after realizing how bad of an idea it was.
+*end
 
-> Snek
-Snek.PNG
-index.html
+> Gearbox Keychain
+Gearbox.jpg
+https://www.thingiverse.com/thing:3939892
+The first keychain I've made using Fusion 360. This perfect 2:1 gearbox can fit on your keys! Gears clip into place, and are separately printable. I was inspired by <a href ="https://www.thingiverse.com/thing:525981">this</a> on thingiverse, and decided to learn how to make some myself. 
+*end
 
-Description goes here. 
-Also here.
+> 2D Shadows
+Shadows.PNG
+https://github.com/Desperationis/2D-Shadows
+My first program in SFML, written in C++. Basically, a controllable red square can cast rays of light, and shadows will appear in areas that don't
+get that light.
+*end
+
+> Guys
+Guys.PNG
+https://github.com/Desperationis/Guys
+A cellular automaton... sorta. Written in C++ and SDL, you can summon moving square blocks on the field for them to eat food, fight, inbreed, and die. 
+As they summon with random speed and range, only some with a combination of the two will be able to take over the world. Adjusting these parameters are easy,
+thanks to the <em>sexy</em>, handcrafted UI.
+*end
+
+> Rubberband Crossbow
+Crossbow.jpg
+https://www.thingiverse.com/thing:3836459
+My first function part designed in Fusion 360: A rubberband-powered crossbow! You can click on the image to download it on 
+Thingiverse.
+*end
+
+> A* Pathfinding Demo
+APathfinding.PNG
+https://github.com/Desperationis/A-star-Pathfinding
+My implementation of A* Pathfinding in C++ and SDL2. You can erase and add walls in real time, set framerate (sort of), and toggle some settings. 
+*end
+
+> Quadtree Demo
+QuadtreeDemo.PNG
+https://github.com/Desperationis/Quadtree
+My attempt to implement a quadtree using C++ and SDL2.
+*end
+
+> Asteroids
+Asteroids.PNG
+https://github.com/Desperationis/Asteroids
+Asteroids is the second game I made in C++ and SDL2, featuring levels, a title screen, PS4 controller support, and spritesheet graphics. 
 *end
 
 > Snek
 Snek.PNG
-index.html
-
-Description goes here. 
-Also here.
+https://github.com/Desperationis/Snake
+The first game I've ever made! This Snake clone written in SDL2 and C++ began my graphics programming journey. 
 *end

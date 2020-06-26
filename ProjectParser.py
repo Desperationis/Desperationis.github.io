@@ -14,7 +14,7 @@ print(reader.projects)
 projectHtml = ""
 
 rightImage = """
-    
+
     <div class="leftBrick black">
     <h class="brickTitle">
       %s
@@ -30,7 +30,7 @@ rightImage = """
         <img class="brickImage" src="img/project/%s" />
     </a>
   </div>
-    
+
     """
 
 leftImage = """
@@ -69,7 +69,7 @@ colors.reverse()
 print(colors)
 
 
-left = True
+left = False
 
 for index, project in enumerate(reader.projects):
     if left:
