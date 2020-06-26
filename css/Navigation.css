@@ -1,14 +1,13 @@
 #navigationBar {
+  position: sticky;
+  top: 0;
   background-color: black;
   width: 100%;
   height: 100px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
 }
 
 #navigation {
+  float: right;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,13 +19,14 @@
 }
 
 #navigation a {
-  background-color:black;
-  color: white;
+  background-color: black;
   font-size: 1vw;
-  text-align: center;
   font-family: "Roboto";
+  text-align: center;
+  text-decoration: none;
+  color: white;
   height: 100%;
-  width: 25%;
+  width: 33%;
 
   display: flex;
   flex-direction: column;
