@@ -20,7 +20,7 @@
 
 #navigation a {
   background-color: black;
-  font-size: 1vw;
+  font-size: 2em;
   font-family: "Roboto";
   text-align: center;
   text-decoration: none;
@@ -35,4 +35,12 @@
 
 #navigation a:hover {
   background-color:gray;
+}
+
+@media screen and (max-width: 1000px) {
+  #navigation {
+    float: none;
+    margin: auto;
+    width: 100%;
+  }
 }
