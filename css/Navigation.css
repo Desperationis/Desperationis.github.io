@@ -37,16 +37,13 @@
   background-color:gray;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (orientation: portrait) {
+  #navigationBar {
+    height: 200px;
+  }
   #navigation {
     float: none;
     margin: auto;
     width: 100%;
-  }
-}
-
-@media screen and (orientation: portrait) {
-  #navigationBar {
-    height: 200px;
   }
 }
