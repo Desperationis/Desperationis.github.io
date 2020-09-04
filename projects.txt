@@ -1,3 +1,37 @@
+> 2DStarve (WIP)
+2DStarve.PNG
+https://github.com/Desperationis/2DStarve-Releases
+This game is a 2D multiplayer survival game focused on using natural resources to make technological advances to make survival easier, and is made by me and a friend known as Kirin. Various biomes exist, including forests, snowy mountains, deserts, and a magical forest, all with their unique set of creatures and armor.
+*end
+
+> Vex CADS
+VexCAD.PNG
+https://docs.google.com/presentation/d/1TsSjlfOTgEroAUiNR0wHhOycTGddeMq9kF5Pi9A02eU/edit?usp=sharing
+Here is a google slides presentation of my CADs for Vex Robotics so far. It includes links to the STL, past robot models, and videos to supplement
+them. 
+*end
+
+> RobotCDocs
+Docs.png
+https://github.com/Desperationis/RobotCDocs
+Unfortunately, tools that documented RobotC functions into the RobotC function library simply do not exist. As such, this tool writes function documentation
+directly into system files, and allows you to view their documentation as shown by the photo. 
+*end
+
+> RobotCLibrary
+Library.PNG
+https://github.com/Desperationis/RobotCLibrary
+This library was made in RobotC, and includes multi-tasked functionalities such as PID Control, Slew Control, Gamer Control, and more. This library was tested
+via <b>RobotCSimulator</b>, another one of my projects.
+*end
+
+> RobotCSimulator
+Simulator.PNG
+https://github.com/Desperationis/RobotCSimulator
+<b>Don't have a vex robot to program on?</b> Now you can use this simulator to simulate it!
+This simulator, written in C++ and SFML was made for the purpose of testing my other VEX project, RobotCLibrary. 
+*end
+
 > TOCYEN
 TOCYEN.PNG
 http://www.tocyen.tools/
