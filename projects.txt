@@ -4,13 +4,6 @@ https://github.com/Desperationis/2DStarve-Releases
 This game is a 2D multiplayer survival game focused on using natural resources to make technological advances to make survival easier, and is made by me and a friend known as Kirin. Various biomes exist, including forests, snowy mountains, deserts, and a magical forest, all with their unique set of creatures and armor.
 *end
 
-> Vex CADS
-VexCAD.PNG
-https://docs.google.com/presentation/d/1TsSjlfOTgEroAUiNR0wHhOycTGddeMq9kF5Pi9A02eU/edit?usp=sharing
-Here is a google slides presentation of my CADs for Vex Robotics so far. It includes links to the STL, past robot models, and videos to supplement
-them. 
-*end
-
 > RobotCDocs
 Docs.png
 https://github.com/Desperationis/RobotCDocs
