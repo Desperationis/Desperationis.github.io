@@ -1,91 +1,73 @@
 > 2DStarve (WIP)
-2DStarve.PNG
+2DStarve.gif
 https://github.com/Desperationis/2DStarve-Releases
-This game is a 2D multiplayer survival game focused on using natural resources to make technological advances to make survival easier, and is made by me and a friend known as Kirin. Various biomes exist, including forests, snowy mountains, deserts, and a magical forest, all with their unique set of creatures and armor.
+A WIP 2D multiplayer survival game built with Unity, C#, and Photon Bolt.
 *end
 
 > RobotCDocs
 Docs.png
 https://github.com/Desperationis/RobotCDocs
-Unfortunately, tools that documented RobotC functions into the RobotC function library simply do not exist. As such, this tool writes function documentation
-directly into system files, and allows you to view their documentation as shown by the photo. 
+The ONLY tool that documents user-defined functions in RobotC by changing system files.
 *end
 
 > RobotCLibrary
 Library.PNG
 https://github.com/Desperationis/RobotCLibrary
-This library was made in RobotC, and includes multi-tasked functionalities such as PID Control, Slew Control, Gamer Control, and more. This library was tested
-via <b>RobotCSimulator</b>, another one of my projects.
+A small C library meant to run on a VEX Cortex that includes PID Control, Slew Control, and more.
 *end
 
 > RobotCSimulator
-Simulator.PNG
+RobotCSimulator.gif
 https://github.com/Desperationis/RobotCSimulator
-<b>Don't have a vex robot to program on?</b> Now you can use this simulator to simulate it!
-This simulator, written in C++ and SFML was made for the purpose of testing my other VEX project, RobotCLibrary. 
-*end
-
-> TOCYEN
-TOCYEN.PNG
-http://www.tocyen.tools/
-My first ever javascript project: An online calculator with formulas built into it. This was originally a tiny Code.hs sketch showing the power of Python's turtle module, but now it's available for the internet! 
-*end
-
-
-> Boids
-Boids.PNG
-https://github.com/Desperationis/Boids
-This is my implementation of Boids! This program was made to test my SFML Game Engine, which was abandoned after realizing how bad of an idea it was.
+A C++ simulator that tries to simulate RobotC code through a parser; Neat stuff.
 *end
 
 > Gearbox Keychain
 Gearbox.jpg
 https://www.thingiverse.com/thing:3939892
-The first keychain I've made using Fusion 360. This perfect 2:1 gearbox can fit on your keys! Gears clip into place, and are separately printable. I was inspired by <a href ="https://www.thingiverse.com/thing:525981">this</a> on thingiverse, and decided to learn how to make some myself. 
+This perfect 2:1 gearbox can fit on your keys! Gears clip into place, and are separately printable. I was inspired by <a href ="https://www.thingiverse.com/thing:525981">this</a> on thingiverse, and decided to learn how to make some myself.
 *end
 
 > 2D Shadows
-Shadows.PNG
+Shadows.gif
 https://github.com/Desperationis/2D-Shadows
-My first program in SFML, written in C++. Basically, a controllable red square can cast rays of light, and shadows will appear in areas that don't
-get that light.
+Neat demo of 2D shadow casting made with SFML and C++.
 *end
 
 > Guys
-Guys.PNG
+Guys.gif
 https://github.com/Desperationis/Guys
-A cellular automaton... sorta. Written in C++ and SDL, you can summon moving square blocks on the field for them to eat food, fight, inbreed, and die. 
-As they summon with random speed and range, only some with a combination of the two will be able to take over the world. Adjusting these parameters are easy,
-thanks to the <em>sexy</em>, handcrafted UI.
+"Guys" is a vector-based simulation of life implemented with a Quadtree and a GUI, where every moving square you
+see on screen is a "Guy" that tries to dominate the population with a single color.
 *end
 
 > Rubberband Crossbow
 Crossbow.jpg
 https://www.thingiverse.com/thing:3836459
-My first function part designed in Fusion 360: A rubberband-powered crossbow! You can click on the image to download it on 
+My first functional part designed in Fusion 360: A rubberband-powered crossbow! You can click on the image to download it on
 Thingiverse.
 *end
 
 > A* Pathfinding Demo
-APathfinding.PNG
+Pathfinding.gif
 https://github.com/Desperationis/A-star-Pathfinding
-My implementation of A* Pathfinding in C++ and SDL2. You can erase and add walls in real time, set framerate (sort of), and toggle some settings. 
+My implementation of A* Pathfinding in C++ and SDL2. You can erase and add walls in real time, set framerate, and toggle some settings.
 *end
 
 > Quadtree Demo
-QuadtreeDemo.PNG
+Quadtree.gif
 https://github.com/Desperationis/Quadtree
-Here is my implementation of a quadtree using C++ and SDL2!
+Pretty sweet demo of a quadtree.
 *end
 
 > Asteroids
-Asteroids.PNG
+Asteroids.gif
 https://github.com/Desperationis/Asteroids
-Asteroids is the second game I made in C++ and SDL2, featuring levels, a title screen, PS4 controller support, and spritesheet graphics. 
+Asteroids is the second game I made in C++ and SDL2, featuring levels, a title screen, PS4 controller support, and spritesheet graphics.
 *end
 
 > Snek
-Snek.PNG
+Snek.gif
 https://github.com/Desperationis/Snake
-The first game I've ever made! This Snake clone written in SDL2 and C++ began my graphics programming journey. 
+A Snake clone written in SDL2 and C++; The first notable project I made, ever.
 *end
