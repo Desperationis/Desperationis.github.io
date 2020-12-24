@@ -28,12 +28,6 @@ https://www.thingiverse.com/thing:3939892
 This perfect 2:1 gearbox can fit on your keys! Gears clip into place, and are separately printable. I was inspired by <a href ="https://www.thingiverse.com/thing:525981">this</a> on thingiverse, and decided to learn how to make some myself.
 *end
 
-> 2D Shadows
-Shadows.gif
-https://github.com/Desperationis/2D-Shadows
-Neat demo of 2D shadow casting made with SFML and C++.
-*end
-
 > Guys
 Guys.gif
 https://github.com/Desperationis/Guys
@@ -52,12 +46,6 @@ Thingiverse.
 Pathfinding.gif
 https://github.com/Desperationis/A-star-Pathfinding
 My implementation of A* Pathfinding in C++ and SDL2. You can erase and add walls in real time, set framerate, and toggle some settings.
-*end
-
-> Quadtree Demo
-Quadtree.gif
-https://github.com/Desperationis/Quadtree
-Pretty sweet demo of a quadtree.
 *end
 
 > Asteroids
