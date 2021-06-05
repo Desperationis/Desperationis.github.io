@@ -7,19 +7,13 @@ A WIP 2D multiplayer survival game built with Unity, C#, and Photon Bolt.
 > RobotCDocs
 Docs.png
 https://github.com/Desperationis/RobotCDocs
-The ONLY tool that documents user-defined functions in RobotC by changing system files.
+A hack that allows custom documentation to be put inside RobotC's autocomplete by changing system files.
 *end
 
-> RobotCLibrary
+> InuLib
 Library.PNG
-https://github.com/Desperationis/RobotCLibrary
+https://github.com/Desperationis/InuLib
 A small C library meant to run on a VEX Cortex that includes PID Control, Slew Control, and more.
-*end
-
-> RobotCSimulator
-RobotCSimulator.gif
-https://github.com/Desperationis/RobotCSimulator
-A C++ simulator that tries to simulate RobotC code through a parser; Neat stuff.
 *end
 
 > Gearbox Keychain
@@ -42,19 +36,13 @@ My first functional part designed in Fusion 360: A rubberband-powered crossbow! 
 Thingiverse.
 *end
 
-> A* Pathfinding Demo
-Pathfinding.gif
-https://github.com/Desperationis/A-star-Pathfinding
-My implementation of A* Pathfinding in C++ and SDL2. You can erase and add walls in real time, set framerate, and toggle some settings.
-*end
-
 > Asteroids
 Asteroids.gif
 https://github.com/Desperationis/Asteroids
 Asteroids is the second game I made in C++ and SDL2, featuring levels, a title screen, PS4 controller support, and spritesheet graphics.
 *end
 
-> Snek
+> Snake
 Snek.gif
 https://github.com/Desperationis/Snake
 A Snake clone written in SDL2 and C++; The first notable project I made, ever.
