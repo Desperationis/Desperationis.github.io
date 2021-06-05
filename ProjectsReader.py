@@ -1,4 +1,4 @@
-from PythonFileLibrary.Reader import *
+from PythonFileLibrary.FileReader import *
 
 """
     ProjectsReader.py
@@ -6,7 +6,7 @@ from PythonFileLibrary.Reader import *
     Parses a file to search for projects.
 """
 
-class ProjectsReader(Reader):
+class ProjectsReader(FileReader):
     def __init__(self, fileName):
         super().__init__(fileName)
         self.projects = []
@@ -14,7 +14,7 @@ class ProjectsReader(Reader):
     def Parse(self):
         # Get information from the file.
         read = False
-        for line in self.CleanRead():
+        for line in self.Read():
             line = line.strip()
 
             if line != "":
@@ -31,6 +31,12 @@ class ProjectsReader(Reader):
                     self.projects[-1][-1] += line + space
 
                 # See if the start of a new project is here.
-                elif '>' in line:
-                    self.projects.append([line.strip('> '), self.GetNextLine().strip(), self.GetNextLine().strip(), ""])
+                elif '>' in line: 
+                    projectName = line.strip('> ')
+                    self.MoveCursorDown()
+                    image = self.GetCurrentLine().strip()
+                    self.MoveCursorDown()
+                    website = self.GetCurrentLine().strip()
+                    self.projects.append([projectName, image, website, ""])
                     read = True
+                    self.MoveCursorDown() # Read next line after this one next loop
